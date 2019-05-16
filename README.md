@@ -9,7 +9,7 @@ The output file will be a **Binary Plist file** which can be opened with any pro
 
 First thing is to compile the program:
 ```console
-user@domain:~$ mvn package
+user@domain:~$ mvn clean compile assembly:single
 ```
 
 Next you will have to execute the program like this:
